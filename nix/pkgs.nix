@@ -19,4 +19,5 @@ pkgsv {
       (import ./overlay.nix)
     ];
   config.allowUnfree = true;
+  system = "x86_64-linux";
 }
